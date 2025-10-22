@@ -7,7 +7,7 @@ private:
     bool pressed;
 public:
     Brake(bool pressed);
-    bool getPressed();
+    bool getPressed() const;
     void setPressed(bool);
 };
 

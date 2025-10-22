@@ -4,7 +4,7 @@ Brake::Brake(bool pressed) {
     this->pressed = pressed;
 }
 
-bool Brake::getPressed() {
+bool Brake::getPressed() const {
     return pressed;
 }
 

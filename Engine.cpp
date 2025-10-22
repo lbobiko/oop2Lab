@@ -8,10 +8,10 @@ Engine::Engine() {
     running = true;
 }
 
-bool Engine::get_running() {
+bool Engine::get_running() const {
     return running;
 }
 
-void Engine::set_runnig(bool run) {
+void Engine::set_running(bool run) {
     running = run;
 }

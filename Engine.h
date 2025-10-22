@@ -9,8 +9,8 @@ public:
     Engine();
     //~Engine();
     //void run();
-    bool get_running();
-    void set_runnig(bool run);
+    bool get_running() const;
+    void set_running(bool run);
 };
 
 

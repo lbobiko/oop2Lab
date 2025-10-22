@@ -7,5 +7,7 @@ constexpr double DT = 0.02;
 constexpr double ACCELERATION = 8.0; // per tick
 constexpr double COAST_DECEL   = 0.0;   // km/h na tick (gdy throttle=0)
 constexpr double BRAKE_DECEL   = 20.0;  // gdy wcisniety hamulec
+// Ustawienia dla sterowania w pętli (czas „trzymania” hamulca)
+constexpr double BRAKE_HOLD_SEC = 0.12; // jeśli SPACE był wciśnięty w ostatnich 120 ms, hamulec jest aktywny
 
 #endif //OOP2LAB_CONSTANTS_H
