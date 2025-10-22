@@ -8,7 +8,7 @@ private:
 public:
     Brake(bool pressed);
     bool getPressed();
-    bool setPressed(bool);
+    void setPressed(bool);
 };
 
 

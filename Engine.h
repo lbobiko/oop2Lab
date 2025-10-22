@@ -3,7 +3,14 @@
 
 
 class Engine {
-
+private:
+    bool running;
+public:
+    Engine();
+    //~Engine();
+    //void run();
+    bool get_running();
+    void set_runnig(bool run);
 };
 
 

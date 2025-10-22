@@ -14,4 +14,6 @@ add_executable(oop2Lab main.cpp
         Brake.cpp
         Brake.h
         Dashboard.cpp
-        Dashboard.h)
+        Dashboard.h
+        Transmission.cpp
+        Transmission.h)

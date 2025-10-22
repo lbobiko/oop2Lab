@@ -8,6 +8,6 @@ bool Brake::getPressed() {
     return pressed;
 }
 
-bool Brake::setPressed(bool pressed) {
+void Brake::setPressed(bool pressed) {
     this->pressed = pressed;
 }

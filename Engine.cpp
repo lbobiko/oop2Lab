@@ -3,3 +3,15 @@
 //
 
 #include "Engine.h"
+
+Engine::Engine() {
+    running = true;
+}
+
+bool Engine::get_running() {
+    return running;
+}
+
+void Engine::set_runnig(bool run) {
+    running = run;
+}
